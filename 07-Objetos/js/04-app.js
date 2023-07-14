@@ -2,16 +2,17 @@ const producto = {
   nombre: "Monitor 20 Pulgadas",
   precio: 300,
   disponible: true,
-  informacion: {
-    medidas: { peso: "1kg", medida: "1m" },
-    fabricacion: {
-      pais: "China",
-    },
-  },
 };
 
-console.log(producto);
+// const nombre = producto.nombre;
 
-console.log(producto.informacion);
-console.log(producto.informacion.medidas.peso);
-console.log(producto.informacion.fabricacion.pais);
+// console.log(nombre);
+
+// Destructuring
+const { nombre, precio, disponible } = producto;
+// const { precio } = producto;
+// const { disponible } = producto;
+
+console.log(nombre);
+console.log(precio);
+console.log(disponible);

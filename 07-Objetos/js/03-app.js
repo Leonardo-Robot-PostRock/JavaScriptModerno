@@ -4,14 +4,10 @@ const producto = {
   disponible: true,
 };
 
-// const nombre = producto.nombre;
+// Agregar nuevas propiedades al objeto
+producto.imagen = "imagen.jpg";
 
-// console.log(nombre);
+// Eliminar propiedades del objeto
+delete producto.disponible;
 
-const { nombre, precio, disponible } = producto;
-// const { precio } = producto;
-// const { disponible } = producto;
-
-console.log(nombre);
-console.log(precio);
-console.log(disponible);
+console.log(producto);
