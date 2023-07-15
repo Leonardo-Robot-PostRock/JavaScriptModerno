@@ -11,6 +11,8 @@ const producto2 = {
   precio: 800,
 };
 
+// Maneras imperativas
+
 // Agregar elemento al final del array
 carrito.push(producto2);
 carrito.push(producto);
