@@ -21,3 +21,4 @@ console.log(resultado);
 const resultado2 = carrito.find((producto) => producto.precio === 100);
 
 console.log(resultado2);
+//A diferencia de filter, find solo retorna el primer elemento que cumpla la condición. Mientras que filter retorna a todos los elementos que cumplen con la condición.
