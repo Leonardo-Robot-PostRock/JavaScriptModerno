@@ -12,6 +12,7 @@ enlace.setAttribute("data-enlace", "nuevo-enlace");
 
 enlace.classList.add("alguna-clase");
 
+// Evento onclick
 enlace.onclick = miFuncion;
 
 console.log(enlace);
